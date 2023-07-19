@@ -5,7 +5,7 @@
 [![Go Report Card](https://goreportcard.com/badge/s9rA16Bf4)](https://goreportcard.com/report/s9rA16Bf4)
 
 <div>
-<img align="left" src="lorca.png" alt="Lorca" width="128px" height="128px" />
+<img align="left" src="images/lorca.png" alt="Lorca" width="128px" height="128px" />
 <br/>
 <p>
 	A very small library to build modern HTML5 desktop apps in Go. It uses Chrome
