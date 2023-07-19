@@ -1,11 +1,11 @@
 # Lorca
 
-[![Build Status](https://img.shields.io/github/workflow/status/zserge/lorca/CI%20Pipeline)](https://github.com/zserge/lorca)
-[![GoDoc](https://godoc.org/github.com/zserge/lorca?status.svg)](https://godoc.org/github.com/zserge/lorca)
-[![Go Report Card](https://goreportcard.com/badge/github.com/zserge/lorca)](https://goreportcard.com/report/github.com/zserge/lorca)
+[![Build Status](https://img.shields.io/github/workflow/status/zserge/lorca/CI%20Pipeline)](https://s9rA16Bf4)
+[![GoDoc](https://godoc.org/s9rA16Bf4?status.svg)](https://godoc.org/s9rA16Bf4)
+[![Go Report Card](https://goreportcard.com/badge/s9rA16Bf4)](https://goreportcard.com/report/s9rA16Bf4)
 
 <div>
-<img align="left" src="https://raw.githubusercontent.com/zserge/lorca/master/lorca.png" alt="Lorca" width="128px" height="128px" />
+<img align="left" src="lorca.png" alt="Lorca" width="128px" height="128px" />
 <br/>
 <p>
 	A very small library to build modern HTML5 desktop apps in Go. It uses Chrome
