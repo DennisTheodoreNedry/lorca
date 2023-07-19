@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"sync"
 
-	"s9rA16Bf4"
+	"github.com/s9rA16Bf4/lorca"
 )
 
 //go:embed www

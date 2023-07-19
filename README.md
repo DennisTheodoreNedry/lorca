@@ -41,45 +41,48 @@ Also, limitations by design:
 * No window menu (tray menus and native OS dialogs are still possible via
 	3rd-party libraries)
 
-If you want to have more control of the browser window - consider using
-[webview](https://github.com/zserge/webview) library with a similar API, so
-migration would be smooth.
 
 ## Example
 
+#### Hello world
 ```go
-ui, _ := lorca.New("", "", 480, 320)
-defer ui.Close()
+package main
 
-// Bind Go function to be available in JS. Go function may be long-running and
-// blocking - in JS it's represented with a Promise.
-ui.Bind("add", func(a, b int) int { return a + b })
+import (
+	"log"
+	"net/url"
 
-// Call JS function from Go. Functions may be asynchronous, i.e. return promises
-n := ui.Eval(`Math.random()`).Float()
-fmt.Println(n)
+	"github.com/s9rA16Bf4/lorca"
+)
 
-// Call JS that calls Go and so on and so on...
-m := ui.Eval(`add(2, 3)`).Int()
-fmt.Println(m)
+func main() {
+	// Create UI with basic HTML passed via data URI
+	ui, err := lorca.New("data:text/html,"+url.PathEscape(`
+	<html>
+		<head><title>Hello</title></head>
+		<body><h1>Hello, world!</h1></body>
+	</html>
+	`), "", 480, 320)
 
-// Wait for the browser window to be closed
-<-ui.Done()
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	defer ui.Close()
+	// Wait until UI window is closed
+	<-ui.Done()
+}
+
 ```
+<img src="images/hello_example.png" />
 
-<p align="center"><img src="examples/counter/counter.gif" /></p>
+
+#### Counter
+
+<img src="images/counter.gif" />
 
 Also, see [examples](examples) for more details about binding functions and packaging binaries.
 
-## Hello World
-
-Here are the steps to run the hello world example.
-
-```
-cd examples/counter
-go get
-go run ./
-```
 
 ## How it works
 
