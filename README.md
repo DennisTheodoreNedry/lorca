@@ -1,8 +1,8 @@
 # Lorca
 
-[![Build Status](https://img.shields.io/github/workflow/status/zserge/lorca/CI%20Pipeline)](https://s9rA16Bf4)
-[![GoDoc](https://godoc.org/s9rA16Bf4?status.svg)](https://godoc.org/s9rA16Bf4)
-[![Go Report Card](https://goreportcard.com/badge/s9rA16Bf4)](https://goreportcard.com/report/s9rA16Bf4)
+[![Build Status](https://github.com/s9rA16Bf4/lorca/actions/workflows/ci.yml/badge.svg)](https://github.com/s9rA16Bf4/lorca/actions/workflows/ci.yml)
+[![GoDoc](https://godoc.org/github.com/s9rA16Bf4/lorca?status.svg)](https://godoc.org/github.com/s9rA16Bf4/lorca)
+[![Go Report Card](https://goreportcard.com/badge/s9rA16Bf4/lorca)](https://goreportcard.com/report/s9rA16Bf4/lorca)
 
 <div>
 <img align="left" src="images/lorca.png" alt="Lorca" width="128px" height="128px" />
