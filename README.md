@@ -1,8 +1,8 @@
 # Lorca
 
-[![Build Status](https://github.com/s9rA16Bf4/lorca/actions/workflows/ci.yml/badge.svg)](https://github.com/s9rA16Bf4/lorca/actions/workflows/ci.yml)
-[![GoDoc](https://godoc.org/github.com/s9rA16Bf4/lorca?status.svg)](https://godoc.org/github.com/s9rA16Bf4/lorca)
-[![Go Report Card](https://goreportcard.com/badge/s9rA16Bf4/lorca)](https://goreportcard.com/report/s9rA16Bf4/lorca)
+[![Build Status](https://github.com/DennisTheodoreNedry/lorca/actions/workflows/ci.yml/badge.svg)](https://github.com/DennisTheodoreNedry/lorca/actions/workflows/ci.yml)
+[![GoDoc](https://godoc.org/github.com/DennisTheodoreNedry/lorca?status.svg)](https://godoc.org/github.com/DennisTheodoreNedry/lorca)
+[![Go Report Card](https://goreportcard.com/badge/DennisTheodoreNedry/lorca)](https://goreportcard.com/report/DennisTheodoreNedry/lorca)
 
 <div>
 <img align="left" src="images/lorca.png" alt="Lorca" width="128px" height="128px" />
@@ -52,7 +52,7 @@ import (
 	"log"
 	"net/url"
 
-	"github.com/s9rA16Bf4/lorca"
+	"github.com/DennisTheodoreNedry/lorca"
 )
 
 func main() {
